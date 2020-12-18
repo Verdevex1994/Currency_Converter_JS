@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="convertercurrency.css">
+</head>
+
+<body>
+
+
+  <div class="container">
+
+    <h1>Currency Converter GBP</h1>
+
+    <form class="form">
+
+    <div class="converter">
+      <div class="amount">
+        <input type="text" id="amount" placeholder="Enter amount here">
+      </div>
+
+
+    <div class="rate">
+      <select id="rate" name="rate">
+        <option disabled value="select" selected>Please Select Currency</option>
+      </select>
+    </div>
+
+
+
+    <div id="results">
+      <input readonly type="text" id="converted">
+    </div>
+  </div>
+</form>
+</div>
+
+<script src="converter.js" charset="utf-8"></script>
+
+</body>
+</html>
